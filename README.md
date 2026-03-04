@@ -15,3 +15,16 @@ rojo serve
 ```
 
 For more help, check out [the Rojo documentation](https://rojo.space/docs).
+## Obby POC
+
+A simple procedurally-generated obby was added under src/*. Server generates platforms and checkpoints at startup.
+Client UI shows elapsed time and checkpoint updates.
+
+Files added:
+- src/server/ObbyManager.server.luau
+- src/server/SpawnHandler.server.luau
+- src/client/PlayerController.client.luau
+- src/client/ui/ObbyUI.client.luau
+- src/shared/TimerModule.luau
+
+Save the files to sync with Roblox Studio and run the place to try the obby.
